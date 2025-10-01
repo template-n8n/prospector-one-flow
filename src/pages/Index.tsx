@@ -5,7 +5,8 @@ import { BenefitsSection } from "@/components/BenefitsSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { PainSection } from "@/components/PainSection";
 import { PricingSection } from "@/components/PricingSection";
-import { FinalCTASection } from "@/components/FinalCTASection";
+import { FAQSection } from "@/components/FAQSection";
+import { AggressiveCTASection } from "@/components/AggressiveCTASection";
 
 const Index = () => {
   return (
@@ -17,7 +18,8 @@ const Index = () => {
       <TestimonialsSection />
       <PainSection />
       <PricingSection />
-      <FinalCTASection />
+      <FAQSection />
+      <AggressiveCTASection />
     </main>
   );
 };
